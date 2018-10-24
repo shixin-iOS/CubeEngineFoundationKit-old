@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CubeEngineFoundationKit'
   s.version          = '0.1.0'
-  s.summary          = 'A foundation framework of CubeEngine.'
+  s.summary          = 'Foundation framework'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-foundation framework of CubeEngine
+A foundation framework of CubeEngine
                        DESC
 
-  s.homepage         = 'https://github.com/Ashine/CubeEngineFoundationKit'
+  s.homepage         = 'https://github.com/AshineReal/CubeEngineFoundationKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ashine' => '758988371@qq.com' }
-  s.source           = { :git => 'https://github.com/Ashine/CubeEngineFoundationKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/AshineReal/CubeEngineFoundationKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
