@@ -1,0 +1,16 @@
+PODS:
+  - CubeEngineFoundationKit (0.1.0)
+
+DEPENDENCIES:
+  - CubeEngineFoundationKit (from `../`)
+
+EXTERNAL SOURCES:
+  CubeEngineFoundationKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CubeEngineFoundationKit: d11d133dabe08925b9b2bfea26b9dba06062a2ef
+
+PODFILE CHECKSUM: 2001a100725e71d2fc342d4f5ba6a55f353e3d04
+
+COCOAPODS: 1.5.0
