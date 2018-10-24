@@ -1,4 +1,5 @@
 # CubeEngineFoundationKit
+<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/Ashine/CubeEngineFoundationKit.svg?style=flat)](https://travis-ci.org/Ashine/CubeEngineFoundationKit)
 [![Version](https://img.shields.io/cocoapods/v/CubeEngineFoundationKit.svg?style=flat)](https://cocoapods.org/pods/CubeEngineFoundationKit)
@@ -27,3 +28,6 @@ Ashine, 758988371@qq.com
 ## License
 
 CubeEngineFoundationKit is available under the MIT license. See the LICENSE file for more info.
+=======
+A foundation framework of CubeEngine
+>>>>>>> 0a9472fa73f0888c38ea1bc3b6231581e12a21c3
