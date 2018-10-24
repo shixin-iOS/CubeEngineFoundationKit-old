@@ -19,5 +19,5 @@
     "ios": "8.0"
   },
   "source_files": "CubeEngineFoundationKit/Classes/**/*",
-  "vendored_frameworks": "CubeEngineFoundationKit/Framework/*.framework"
+  "vendored_frameworks": "CubeEngineFoundationKit/Framework/CubeEngineFoundationKit.framework"
 }

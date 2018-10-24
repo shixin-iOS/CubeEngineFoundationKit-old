@@ -31,7 +31,7 @@ A foundation framework of CubeEngine
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'CubeEngineFoundationKit/Classes/**/*'
-  s.vendored_frameworks = 'CubeEngineFoundationKit/Framework/*.framework'
+  s.vendored_frameworks = 'CubeEngineFoundationKit/Classes/*.framework'
   
   # s.resource_bundles = {
   #   'CubeEngineFoundationKit' => ['CubeEngineFoundationKit/Assets/*.png']
