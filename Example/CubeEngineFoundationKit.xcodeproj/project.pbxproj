@@ -193,12 +193,10 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CubeEngineFoundationKit_Tests/Pods-CubeEngineFoundationKit_Tests-frameworks.sh",
-				"${PODS_ROOT}/../../CubeEngineFoundationKit/Framework/CubeEngineFoundationKit.framework",
 				"${BUILT_PRODUCTS_DIR}/TSCubeEngineFoundationKit/TSCubeEngineFoundationKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CubeEngineFoundationKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TSCubeEngineFoundationKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

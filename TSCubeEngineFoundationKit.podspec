@@ -31,7 +31,16 @@ A foundation framework of CubeEngine
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'CubeEngineFoundationKit/Classes/**/*'
-  s.vendored_frameworks = 'CubeEngineFoundationKit/Classes/*.framework'
+  s.vendored_frameworks = 'CubeEngineFoundationKit/Frameworks/*.framework'
+  
+  s.requires_arc = true
+  s.xcconfig = {
+  'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
+  'FRAMEWORK_SEARCH_PATHS' => '$(inherited)',
+  'HEADER_SEARCH_PATHS' =>'$(inherited)',
+  'ARCHS' => '$(inherited)',
+  'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup',
+  'VALID_ARCHS' =>'$(inherited)'}
   
   # s.resource_bundles = {
   #   'CubeEngineFoundationKit' => ['CubeEngineFoundationKit/Assets/*.png']

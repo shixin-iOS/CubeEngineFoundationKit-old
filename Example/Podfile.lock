@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TSCubeEngineFoundationKit: b4dfc04afd50ccc5f8c35b2405cbd9c849e864dc
+  TSCubeEngineFoundationKit: e98d933ee91cc7ad226684729e41a315711fac64
 
 PODFILE CHECKSUM: 29dfe43cab1f3337e91468ddcc89f1890d52cccf
 
