@@ -12,13 +12,13 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		82C1B7A621805B2A00586C8E /* TSCubeEngineFoundationKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 82C1B7A521805B2A00586C8E /* TSCubeEngineFoundationKit.podspec */; };
 		CCFFBCDBD38C896A0A0C854C /* Pods_CubeEngineFoundationKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F552A7A526E5488877D8A265 /* Pods_CubeEngineFoundationKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		27DBFF8D5C27197B74E4949D /* Pods-CubeEngineFoundationKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeEngineFoundationKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CubeEngineFoundationKit_Tests/Pods-CubeEngineFoundationKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		337EA1F76FA6843680109BED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		59588F28859B0BCB4DC8658C /* CubeEngineFoundationKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CubeEngineFoundationKit.podspec; path = ../CubeEngineFoundationKit.podspec; sourceTree = "<group>"; };
+		337EA1F76FA6843680109BED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -28,7 +28,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		89EF6F9C814290E2BAEE6C4D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		82C1B7A521805B2A00586C8E /* TSCubeEngineFoundationKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TSCubeEngineFoundationKit.podspec; path = ../TSCubeEngineFoundationKit.podspec; sourceTree = "<group>"; };
+		89EF6F9C814290E2BAEE6C4D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EE44CF788C21385BEA12220E /* Pods-CubeEngineFoundationKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeEngineFoundationKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CubeEngineFoundationKit_Tests/Pods-CubeEngineFoundationKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F552A7A526E5488877D8A265 /* Pods_CubeEngineFoundationKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CubeEngineFoundationKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -110,7 +111,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				59588F28859B0BCB4DC8658C /* CubeEngineFoundationKit.podspec */,
+				82C1B7A521805B2A00586C8E /* TSCubeEngineFoundationKit.podspec */,
 				337EA1F76FA6843680109BED /* README.md */,
 				89EF6F9C814290E2BAEE6C4D /* LICENSE */,
 			);
@@ -177,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82C1B7A621805B2A00586C8E /* TSCubeEngineFoundationKit.podspec in Resources */,
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,11 +193,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CubeEngineFoundationKit_Tests/Pods-CubeEngineFoundationKit_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CubeEngineFoundationKit/CubeEngineFoundationKit.framework",
+				"${PODS_ROOT}/../../CubeEngineFoundationKit/Framework/CubeEngineFoundationKit.framework",
+				"${BUILT_PRODUCTS_DIR}/TSCubeEngineFoundationKit/TSCubeEngineFoundationKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CubeEngineFoundationKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TSCubeEngineFoundationKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

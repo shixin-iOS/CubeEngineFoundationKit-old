@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double CubeEngineFoundationKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char CubeEngineFoundationKitVersionString[];
+FOUNDATION_EXPORT double TSCubeEngineFoundationKitVersionNumber;
+FOUNDATION_EXPORT const unsigned char TSCubeEngineFoundationKitVersionString[];
 

@@ -143,10 +143,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/CubeEngineFoundationKit/CubeEngineFoundationKit.framework"
+  install_framework "${PODS_ROOT}/../../CubeEngineFoundationKit/Framework/CubeEngineFoundationKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TSCubeEngineFoundationKit/TSCubeEngineFoundationKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/CubeEngineFoundationKit/CubeEngineFoundationKit.framework"
+  install_framework "${PODS_ROOT}/../../CubeEngineFoundationKit/Framework/CubeEngineFoundationKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TSCubeEngineFoundationKit/TSCubeEngineFoundationKit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

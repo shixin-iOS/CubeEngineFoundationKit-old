@@ -7,96 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030C8C760279B8B55614FCD7EC60A624 /* CubeEngineFoundationKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E9B3D7A047272327C87A6548E8C932 /* CubeEngineFoundationKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04CED9057180BF6E5EB5208972CC90A3 /* Pods-CubeEngineFoundationKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E610645BE24AE8489201D9465EC8FEE /* Pods-CubeEngineFoundationKit_Tests-dummy.m */; };
-		057228C60D427DB579F0158DC0053D25 /* Pods-CubeEngineFoundationKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DDD5DAA5E70CCBE141FB3B00F7C077A /* Pods-CubeEngineFoundationKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EFBA2DCF3E168FE5578348998449A15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		92D097C589D99EB63766166CF229733F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 75244CD5288D80721E4E571510D8519F /* ReplaceMe.m */; };
-		B6D163928127A81928B92E97DD0A21DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		DA2E7E531871A4000168CE2B45E7439C /* CubeEngineFoundationKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 795E1715DA0D8BA3ADACFC8A0F39F2ED /* CubeEngineFoundationKit-dummy.m */; };
+		0AB4EAC2C991700E46196B60DA915872 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 954B17B8610B5E098C5A70E818F60BDA /* ReplaceMe.m */; };
+		20A015D7B86ADBD10ED2321769ADEB9F /* Pods-CubeEngineFoundationKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DDD5DAA5E70CCBE141FB3B00F7C077A /* Pods-CubeEngineFoundationKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3917FF4408B4AFE000C30D45056AAAA7 /* TSCubeEngineFoundationKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78044287ECCF422EA92BECD2A56DCC9A /* TSCubeEngineFoundationKit-dummy.m */; };
+		51035E074191B7555ABFD903B3DBFE3F /* Pods-CubeEngineFoundationKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E610645BE24AE8489201D9465EC8FEE /* Pods-CubeEngineFoundationKit_Tests-dummy.m */; };
+		57DDCF47BEE792D03BFDA8F5366C375B /* TSCubeEngineFoundationKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7C5951F26A75A43D09566086AF1F7D /* TSCubeEngineFoundationKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9888E8CC7ACA32891402FB285D391ABC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F349D3D83A48785A65C3BD95AEF501C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F917F1B6330CABA289BA02EA786622B1 /* PBXContainerItemProxy */ = {
+		AE6E018BB8504CC9360DC1C1A67626B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 41AFB1419143D185DDA2B19C2D8CA14B;
-			remoteInfo = CubeEngineFoundationKit;
+			remoteGlobalIDString = AC846CC5EEDF6CFED9E3C82669DCB139;
+			remoteInfo = TSCubeEngineFoundationKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03969AC74416F29E88C7F545D9F2073F /* TSCubeEngineFoundationKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSCubeEngineFoundationKit-prefix.pch"; sourceTree = "<group>"; };
 		13A7BABCD2503827BE335C6304523FEF /* Pods-CubeEngineFoundationKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CubeEngineFoundationKit_Tests.modulemap"; sourceTree = "<group>"; };
 		17AD130C420DF62B3AB86AB6A0653A0A /* Pods-CubeEngineFoundationKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CubeEngineFoundationKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1E610645BE24AE8489201D9465EC8FEE /* Pods-CubeEngineFoundationKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CubeEngineFoundationKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		323F569CB7BB9882B52306409546C3AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217FE1F53709094E2B0F887F19961CB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F4CFA2B5D2352608D74E62F218231EA /* Pods_CubeEngineFoundationKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CubeEngineFoundationKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34308DD1322E56004F26E9BF0D4BF03A /* Pods-CubeEngineFoundationKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubeEngineFoundationKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4303EFEAD6D7392C75756B9F6B288A75 /* Pods-CubeEngineFoundationKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubeEngineFoundationKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5142B54CFE8827B9EF5F0CCE853532D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		46B6E144DCFB1801B6FE34701DDFFEA4 /* TSCubeEngineFoundationKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TSCubeEngineFoundationKit.podspec; sourceTree = "<group>"; };
+		5387E0CB8849350E69D77A926850BC26 /* CubeEngineFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CubeEngineFoundationKit.framework; path = CubeEngineFoundationKit/Framework/CubeEngineFoundationKit.framework; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6680329180ED64FB2C3774460ADDC2E2 /* Pods_CubeEngineFoundationKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CubeEngineFoundationKit_Tests.framework; path = "Pods-CubeEngineFoundationKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		75244CD5288D80721E4E571510D8519F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CubeEngineFoundationKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		795E1715DA0D8BA3ADACFC8A0F39F2ED /* CubeEngineFoundationKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CubeEngineFoundationKit-dummy.m"; sourceTree = "<group>"; };
+		78044287ECCF422EA92BECD2A56DCC9A /* TSCubeEngineFoundationKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSCubeEngineFoundationKit-dummy.m"; sourceTree = "<group>"; };
 		7E9EF52CEB0B9656E4B42B73F34C01D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A15C0C35D6CD5440E3779A334697C45 /* CubeEngineFoundationKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CubeEngineFoundationKit.modulemap; sourceTree = "<group>"; };
 		8DDD5DAA5E70CCBE141FB3B00F7C077A /* Pods-CubeEngineFoundationKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CubeEngineFoundationKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		954B17B8610B5E098C5A70E818F60BDA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CubeEngineFoundationKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		9A52D9E34287036642139F78FE598526 /* TSCubeEngineFoundationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSCubeEngineFoundationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA59E73E05B4DCEC86035CE7A89D5973 /* Pods-CubeEngineFoundationKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CubeEngineFoundationKit_Tests-resources.sh"; sourceTree = "<group>"; };
-		B23E6B8507E0D48BC4D3102D28F40710 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		BFE61B9D91C414BFBDD3ED30FB7CE835 /* CubeEngineFoundationKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CubeEngineFoundationKit.xcconfig; sourceTree = "<group>"; };
-		CB714423D1012497396C2A728F434364 /* CubeEngineFoundationKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CubeEngineFoundationKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3A96A2B5CADCE213C673716D8A9D521 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CB05E88A267D62A6913FB2D3583167BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CCF00058C66494D78EFC9734C09F2A6A /* Pods-CubeEngineFoundationKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CubeEngineFoundationKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DD28E54E6E57851DEEBF4D3DC61D02AC /* CubeEngineFoundationKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CubeEngineFoundationKit-prefix.pch"; sourceTree = "<group>"; };
-		E0DB29C4A7DBC6202CD8AEB5C213DF34 /* CubeEngineFoundationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CubeEngineFoundationKit.framework; path = CubeEngineFoundationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7C5951F26A75A43D09566086AF1F7D /* TSCubeEngineFoundationKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSCubeEngineFoundationKit-umbrella.h"; sourceTree = "<group>"; };
+		E65C22973D4624F2913124EAE4846C61 /* TSCubeEngineFoundationKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSCubeEngineFoundationKit.xcconfig; sourceTree = "<group>"; };
 		F386FC8146DC99147B75B054F776D08D /* Pods-CubeEngineFoundationKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CubeEngineFoundationKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F8E9B3D7A047272327C87A6548E8C932 /* CubeEngineFoundationKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CubeEngineFoundationKit-umbrella.h"; sourceTree = "<group>"; };
+		FA85CBEF4A9720BCBF2651450C1C0EE8 /* TSCubeEngineFoundationKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TSCubeEngineFoundationKit.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5604295318271D87850BBA5D5D793F94 /* Frameworks */ = {
+		585A71286F5C29F796B384CA474A4A85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6D163928127A81928B92E97DD0A21DB /* Foundation.framework in Frameworks */,
+				F349D3D83A48785A65C3BD95AEF501C2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6DD0F7CEFD97FDED37AB89A2F82324C /* Frameworks */ = {
+		7F23A8C524CC95205919CD304744F449 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EFBA2DCF3E168FE5578348998449A15 /* Foundation.framework in Frameworks */,
+				9888E8CC7ACA32891402FB285D391ABC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B8FA5A61FE33256B59A8125B3532215 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5387E0CB8849350E69D77A926850BC26 /* CubeEngineFoundationKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25681C548264C08342336D89664AF8A4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CB05E88A267D62A6913FB2D3583167BF /* LICENSE */,
+				B3A96A2B5CADCE213C673716D8A9D521 /* README.md */,
+				46B6E144DCFB1801B6FE34701DDFFEA4 /* TSCubeEngineFoundationKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8D2E1FBE03F505DE7C8F91093493B584 /* Development Pods */,
+				CDF4D0115139D6D5F7FE152D5AD4E627 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				BB24EFB38C86D91F156B1769E0FE7481 /* Products */,
+				B1FF47F42D03BDCCC709A74ED91F3420 /* Products */,
 				DB2ED921F810A54DE0CD6D10477570A4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8D2E1FBE03F505DE7C8F91093493B584 /* Development Pods */ = {
+		8CEDBDB0BA195AB7DEAB2DC4EFC82385 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D733C61FDD71B1ADB1430F3CBBE4F101 /* CubeEngineFoundationKit */,
+				217FE1F53709094E2B0F887F19961CB1 /* Info.plist */,
+				FA85CBEF4A9720BCBF2651450C1C0EE8 /* TSCubeEngineFoundationKit.modulemap */,
+				E65C22973D4624F2913124EAE4846C61 /* TSCubeEngineFoundationKit.xcconfig */,
+				78044287ECCF422EA92BECD2A56DCC9A /* TSCubeEngineFoundationKit-dummy.m */,
+				03969AC74416F29E88C7F545D9F2073F /* TSCubeEngineFoundationKit-prefix.pch */,
+				DF7C5951F26A75A43D09566086AF1F7D /* TSCubeEngineFoundationKit-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TSCubeEngineFoundationKit";
 			sourceTree = "<group>";
 		};
-		BB24EFB38C86D91F156B1769E0FE7481 /* Products */ = {
+		B1FF47F42D03BDCCC709A74ED91F3420 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E0DB29C4A7DBC6202CD8AEB5C213DF34 /* CubeEngineFoundationKit.framework */,
-				6680329180ED64FB2C3774460ADDC2E2 /* Pods_CubeEngineFoundationKit_Tests.framework */,
+				2F4CFA2B5D2352608D74E62F218231EA /* Pods_CubeEngineFoundationKit_Tests.framework */,
+				9A52D9E34287036642139F78FE598526 /* TSCubeEngineFoundationKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,18 +134,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C1DE51B7BA26F706E3A8A45418256373 /* Support Files */ = {
+		CDF4D0115139D6D5F7FE152D5AD4E627 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8A15C0C35D6CD5440E3779A334697C45 /* CubeEngineFoundationKit.modulemap */,
-				BFE61B9D91C414BFBDD3ED30FB7CE835 /* CubeEngineFoundationKit.xcconfig */,
-				795E1715DA0D8BA3ADACFC8A0F39F2ED /* CubeEngineFoundationKit-dummy.m */,
-				DD28E54E6E57851DEEBF4D3DC61D02AC /* CubeEngineFoundationKit-prefix.pch */,
-				F8E9B3D7A047272327C87A6548E8C932 /* CubeEngineFoundationKit-umbrella.h */,
-				323F569CB7BB9882B52306409546C3AE /* Info.plist */,
+				E2386662CFDB5CA046BA7DABCC9C2BB0 /* TSCubeEngineFoundationKit */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CubeEngineFoundationKit";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -131,23 +150,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D733C61FDD71B1ADB1430F3CBBE4F101 /* CubeEngineFoundationKit */ = {
-			isa = PBXGroup;
-			children = (
-				75244CD5288D80721E4E571510D8519F /* ReplaceMe.m */,
-				F625458FF77EDFB2FC82C17BAABABE59 /* Pod */,
-				C1DE51B7BA26F706E3A8A45418256373 /* Support Files */,
-			);
-			name = CubeEngineFoundationKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		DB2ED921F810A54DE0CD6D10477570A4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				EB3FF9DD01D71158D3A717BE07AA99F0 /* Pods-CubeEngineFoundationKit_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E2386662CFDB5CA046BA7DABCC9C2BB0 /* TSCubeEngineFoundationKit */ = {
+			isa = PBXGroup;
+			children = (
+				954B17B8610B5E098C5A70E818F60BDA /* ReplaceMe.m */,
+				0B8FA5A61FE33256B59A8125B3532215 /* Frameworks */,
+				25681C548264C08342336D89664AF8A4 /* Pod */,
+				8CEDBDB0BA195AB7DEAB2DC4EFC82385 /* Support Files */,
+			);
+			name = TSCubeEngineFoundationKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		EB3FF9DD01D71158D3A717BE07AA99F0 /* Pods-CubeEngineFoundationKit_Tests */ = {
@@ -168,71 +188,61 @@
 			path = "Target Support Files/Pods-CubeEngineFoundationKit_Tests";
 			sourceTree = "<group>";
 		};
-		F625458FF77EDFB2FC82C17BAABABE59 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CB714423D1012497396C2A728F434364 /* CubeEngineFoundationKit.podspec */,
-				5142B54CFE8827B9EF5F0CCE853532D9 /* LICENSE */,
-				B23E6B8507E0D48BC4D3102D28F40710 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		34EF835A42E0D7C0189327090E92573A /* Headers */ = {
+		7C25F8623F365919C3EEC6CA48529127 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				030C8C760279B8B55614FCD7EC60A624 /* CubeEngineFoundationKit-umbrella.h in Headers */,
+				57DDCF47BEE792D03BFDA8F5366C375B /* TSCubeEngineFoundationKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3748FDDC2B1A7321CBDEDD2A9FC73BEB /* Headers */ = {
+		9EB660802A0810530111B5E5961BD004 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				057228C60D427DB579F0158DC0053D25 /* Pods-CubeEngineFoundationKit_Tests-umbrella.h in Headers */,
+				20A015D7B86ADBD10ED2321769ADEB9F /* Pods-CubeEngineFoundationKit_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		41AFB1419143D185DDA2B19C2D8CA14B /* CubeEngineFoundationKit */ = {
+		8650AC9CEB3E9643CE31CD0D3814209D /* Pods-CubeEngineFoundationKit_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC94EFF1003BE6CD99FB2B5C32322D30 /* Build configuration list for PBXNativeTarget "CubeEngineFoundationKit" */;
+			buildConfigurationList = EE51D4B10A1B6278A70C83E5A6E9F236 /* Build configuration list for PBXNativeTarget "Pods-CubeEngineFoundationKit_Tests" */;
 			buildPhases = (
-				7E584422A8869F19013ECF32EC521383 /* Sources */,
-				B6DD0F7CEFD97FDED37AB89A2F82324C /* Frameworks */,
-				34EF835A42E0D7C0189327090E92573A /* Headers */,
+				6DA933C92B12272AECCE061E2428AEA8 /* Sources */,
+				7F23A8C524CC95205919CD304744F449 /* Frameworks */,
+				9EB660802A0810530111B5E5961BD004 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = CubeEngineFoundationKit;
-			productName = CubeEngineFoundationKit;
-			productReference = E0DB29C4A7DBC6202CD8AEB5C213DF34 /* CubeEngineFoundationKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		759BC8FC0D9811DD2436250EB7092D74 /* Pods-CubeEngineFoundationKit_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1239734B992AEAA0D05768BC4915BF9F /* Build configuration list for PBXNativeTarget "Pods-CubeEngineFoundationKit_Tests" */;
-			buildPhases = (
-				057D93A4D27CEEFAAF0A35B36D75BF18 /* Sources */,
-				5604295318271D87850BBA5D5D793F94 /* Frameworks */,
-				3748FDDC2B1A7321CBDEDD2A9FC73BEB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1C9A4EBD069E5A7BA5C9062029524F7E /* PBXTargetDependency */,
+				2A05BB62EF1B66717463E873B6A4EBAA /* PBXTargetDependency */,
 			);
 			name = "Pods-CubeEngineFoundationKit_Tests";
 			productName = "Pods-CubeEngineFoundationKit_Tests";
-			productReference = 6680329180ED64FB2C3774460ADDC2E2 /* Pods_CubeEngineFoundationKit_Tests.framework */;
+			productReference = 2F4CFA2B5D2352608D74E62F218231EA /* Pods_CubeEngineFoundationKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC846CC5EEDF6CFED9E3C82669DCB139 /* TSCubeEngineFoundationKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 458098A7BFACF43353E059281A65EFFD /* Build configuration list for PBXNativeTarget "TSCubeEngineFoundationKit" */;
+			buildPhases = (
+				C89956FF5E15A567FA63EACF1C121CCA /* Sources */,
+				585A71286F5C29F796B384CA474A4A85 /* Frameworks */,
+				7C25F8623F365919C3EEC6CA48529127 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSCubeEngineFoundationKit;
+			productName = TSCubeEngineFoundationKit;
+			productReference = 9A52D9E34287036642139F78FE598526 /* TSCubeEngineFoundationKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -252,78 +262,47 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BB24EFB38C86D91F156B1769E0FE7481 /* Products */;
+			productRefGroup = B1FF47F42D03BDCCC709A74ED91F3420 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				41AFB1419143D185DDA2B19C2D8CA14B /* CubeEngineFoundationKit */,
-				759BC8FC0D9811DD2436250EB7092D74 /* Pods-CubeEngineFoundationKit_Tests */,
+				8650AC9CEB3E9643CE31CD0D3814209D /* Pods-CubeEngineFoundationKit_Tests */,
+				AC846CC5EEDF6CFED9E3C82669DCB139 /* TSCubeEngineFoundationKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		057D93A4D27CEEFAAF0A35B36D75BF18 /* Sources */ = {
+		6DA933C92B12272AECCE061E2428AEA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04CED9057180BF6E5EB5208972CC90A3 /* Pods-CubeEngineFoundationKit_Tests-dummy.m in Sources */,
+				51035E074191B7555ABFD903B3DBFE3F /* Pods-CubeEngineFoundationKit_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E584422A8869F19013ECF32EC521383 /* Sources */ = {
+		C89956FF5E15A567FA63EACF1C121CCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA2E7E531871A4000168CE2B45E7439C /* CubeEngineFoundationKit-dummy.m in Sources */,
-				92D097C589D99EB63766166CF229733F /* ReplaceMe.m in Sources */,
+				0AB4EAC2C991700E46196B60DA915872 /* ReplaceMe.m in Sources */,
+				3917FF4408B4AFE000C30D45056AAAA7 /* TSCubeEngineFoundationKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1C9A4EBD069E5A7BA5C9062029524F7E /* PBXTargetDependency */ = {
+		2A05BB62EF1B66717463E873B6A4EBAA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CubeEngineFoundationKit;
-			target = 41AFB1419143D185DDA2B19C2D8CA14B /* CubeEngineFoundationKit */;
-			targetProxy = F917F1B6330CABA289BA02EA786622B1 /* PBXContainerItemProxy */;
+			name = TSCubeEngineFoundationKit;
+			target = AC846CC5EEDF6CFED9E3C82669DCB139 /* TSCubeEngineFoundationKit */;
+			targetProxy = AE6E018BB8504CC9360DC1C1A67626B0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		050DC23A1DA166900BFDE52D9BF5824C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFE61B9D91C414BFBDD3ED30FB7CE835 /* CubeEngineFoundationKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CubeEngineFoundationKit/CubeEngineFoundationKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CubeEngineFoundationKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CubeEngineFoundationKit/CubeEngineFoundationKit.modulemap";
-				PRODUCT_MODULE_NAME = CubeEngineFoundationKit;
-				PRODUCT_NAME = CubeEngineFoundationKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		297DB5C85698F163C77BE0CA5AD6C246 /* Release */ = {
+		0F0E579CBF45567FC9645A5ABC9EEB1B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 34308DD1322E56004F26E9BF0D4BF03A /* Pods-CubeEngineFoundationKit_Tests.release.xcconfig */;
 			buildSettings = {
@@ -356,6 +335,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		69D5DEBD3A666C8908ED4A2FF5AC5294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65C22973D4624F2913124EAE4846C61 /* TSCubeEngineFoundationKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TSCubeEngineFoundationKit/TSCubeEngineFoundationKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSCubeEngineFoundationKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TSCubeEngineFoundationKit/TSCubeEngineFoundationKit.modulemap";
+				PRODUCT_MODULE_NAME = TSCubeEngineFoundationKit;
+				PRODUCT_NAME = TSCubeEngineFoundationKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -420,36 +429,6 @@
 			};
 			name = Debug;
 		};
-		A7DB7CBFFA60CEE101F6995AE5677B25 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFE61B9D91C414BFBDD3ED30FB7CE835 /* CubeEngineFoundationKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CubeEngineFoundationKit/CubeEngineFoundationKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CubeEngineFoundationKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CubeEngineFoundationKit/CubeEngineFoundationKit.modulemap";
-				PRODUCT_MODULE_NAME = CubeEngineFoundationKit;
-				PRODUCT_NAME = CubeEngineFoundationKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -508,7 +487,7 @@
 			};
 			name = Release;
 		};
-		F3F72F355290E2E76F8878BB66ACA8CC /* Debug */ = {
+		D43D862C9F4B6D0EF0D06B7B00C56948 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4303EFEAD6D7392C75756B9F6B288A75 /* Pods-CubeEngineFoundationKit_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -541,18 +520,40 @@
 			};
 			name = Debug;
 		};
+		DD09138C75E7F82AA959EF74553B321B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65C22973D4624F2913124EAE4846C61 /* TSCubeEngineFoundationKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TSCubeEngineFoundationKit/TSCubeEngineFoundationKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSCubeEngineFoundationKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TSCubeEngineFoundationKit/TSCubeEngineFoundationKit.modulemap";
+				PRODUCT_MODULE_NAME = TSCubeEngineFoundationKit;
+				PRODUCT_NAME = TSCubeEngineFoundationKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1239734B992AEAA0D05768BC4915BF9F /* Build configuration list for PBXNativeTarget "Pods-CubeEngineFoundationKit_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F3F72F355290E2E76F8878BB66ACA8CC /* Debug */,
-				297DB5C85698F163C77BE0CA5AD6C246 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -562,11 +563,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC94EFF1003BE6CD99FB2B5C32322D30 /* Build configuration list for PBXNativeTarget "CubeEngineFoundationKit" */ = {
+		458098A7BFACF43353E059281A65EFFD /* Build configuration list for PBXNativeTarget "TSCubeEngineFoundationKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7DB7CBFFA60CEE101F6995AE5677B25 /* Debug */,
-				050DC23A1DA166900BFDE52D9BF5824C /* Release */,
+				69D5DEBD3A666C8908ED4A2FF5AC5294 /* Debug */,
+				DD09138C75E7F82AA959EF74553B321B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE51D4B10A1B6278A70C83E5A6E9F236 /* Build configuration list for PBXNativeTarget "Pods-CubeEngineFoundationKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43D862C9F4B6D0EF0D06B7B00C56948 /* Debug */,
+				0F0E579CBF45567FC9645A5ABC9EEB1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

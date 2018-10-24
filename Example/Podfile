@@ -1,6 +1,6 @@
 use_frameworks!
 target 'CubeEngineFoundationKit_Tests' do
-  pod 'CubeEngineFoundationKit', :path => '../'
+  pod 'TSCubeEngineFoundationKit', :path => '../'
   
   
 end

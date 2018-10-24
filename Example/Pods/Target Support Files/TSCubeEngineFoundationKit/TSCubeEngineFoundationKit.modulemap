@@ -1,0 +1,6 @@
+framework module TSCubeEngineFoundationKit {
+  umbrella header "TSCubeEngineFoundationKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

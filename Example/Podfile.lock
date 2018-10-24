@@ -1,16 +1,16 @@
 PODS:
-  - CubeEngineFoundationKit (0.1.0)
+  - TSCubeEngineFoundationKit (1.0.1)
 
 DEPENDENCIES:
-  - CubeEngineFoundationKit (from `../`)
+  - TSCubeEngineFoundationKit (from `../`)
 
 EXTERNAL SOURCES:
-  CubeEngineFoundationKit:
+  TSCubeEngineFoundationKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CubeEngineFoundationKit: d11d133dabe08925b9b2bfea26b9dba06062a2ef
+  TSCubeEngineFoundationKit: 63bc44f4e27a7a6dddb960d8e9ed43ab10911778
 
-PODFILE CHECKSUM: 2001a100725e71d2fc342d4f5ba6a55f353e3d04
+PODFILE CHECKSUM: 29dfe43cab1f3337e91468ddcc89f1890d52cccf
 
 COCOAPODS: 1.5.0
