@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'TSCubeEngineFoundationKit'
+  s.name             = 'CubeEngineFoundationKit'
   s.version          = '1.0.4'
   s.summary          = 'Foundation framework'
 
