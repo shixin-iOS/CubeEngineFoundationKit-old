@@ -32,6 +32,7 @@ A foundation framework of CubeEngine
 
   s.source_files = 'CubeEngineFoundationKit/Classes/**/*'
   s.vendored_frameworks = 'CubeEngineFoundationKit/Frameworks/*.framework'
+  s.dependency = 'Genie'
   
   s.requires_arc = true
   s.xcconfig = {
