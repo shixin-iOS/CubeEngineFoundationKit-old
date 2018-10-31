@@ -120,7 +120,7 @@ typedef enum _VideoSize {
 
 #pragma mark - media
 /**
- App数据，聊天，拍照等文件数据存放目录
+ App数据，聊天，等数据存放目录
  */
 @property (nonatomic, copy) NSString *resourceDir;
 /**
@@ -132,6 +132,12 @@ typedef enum _VideoSize {
  */
 @property (nonatomic, copy) NSString *videoCodec;
 
+#pragma mark - file
+
+/**
+ 文件存放的根路径(具体使用见CubeFileUtil.h)，默认为CubeConfig->resourceDir/Files/
+ */
+@property (nonatomic, copy) NSString *fileRootPath;
 
 #pragma mark - init
 

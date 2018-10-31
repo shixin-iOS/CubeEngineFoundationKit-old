@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/CubeConfig.h</key>
 		<data>
-		qLHhBOJtBVCtHLhh1mI9SyYYnyo=
+		Z73TxZHDFjxWtmExdO8Y9KUSWCk=
 		</data>
 		<key>Headers/CubeConnectionState.h</key>
 		<data>
@@ -91,6 +91,10 @@
 		<key>Headers/CubeFileType.h</key>
 		<data>
 		9JT741L14NrbRJQHuHe9gaNRHhM=
+		</data>
+		<key>Headers/CubeFileUtil.h</key>
+		<data>
+		Y6XknqseYsCLcUO0TOLsOlm80Ic=
 		</data>
 		<key>Headers/CubeGroup.h</key>
 		<data>
@@ -356,11 +360,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qLHhBOJtBVCtHLhh1mI9SyYYnyo=
+			Z73TxZHDFjxWtmExdO8Y9KUSWCk=
 			</data>
 			<key>hash2</key>
 			<data>
-			PwDXXcwlNZ2g4n6b42mlPeQIybEC2dB4Mefvt2MY/I8=
+			tTIJmo6YXDlS1lSWJzkTAmkUHJ4MGgnEtTQzjOsp+10=
 			</data>
 		</dict>
 		<key>Headers/CubeConnectionState.h</key>
@@ -515,6 +519,17 @@
 			<key>hash2</key>
 			<data>
 			TbafNgCgS4xKBa+uJmAk8s+3jEMfvFdNTHKFcB6jDDE=
+			</data>
+		</dict>
+		<key>Headers/CubeFileUtil.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Y6XknqseYsCLcUO0TOLsOlm80Ic=
+			</data>
+			<key>hash2</key>
+			<data>
+			U6WfoS2bOSRIMKjVKEgoPmLpaNYKLb/Fw21nsisaXvA=
 			</data>
 		</dict>
 		<key>Headers/CubeGroup.h</key>
