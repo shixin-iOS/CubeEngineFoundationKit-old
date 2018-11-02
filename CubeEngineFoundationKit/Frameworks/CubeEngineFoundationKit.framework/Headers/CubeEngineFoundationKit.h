@@ -87,6 +87,7 @@ FOUNDATION_EXPORT const unsigned char CubeEngineFoundationKitVersionString[];
 #import <CubeEngineFoundationKit/CubeMessageUtil.h>
 #import <CubeEngineFoundationKit/CubeGroupUtil.h>
 #import <CubeEngineFoundationKit/CubeJsonUtil.h>
+#import <CubeEngineFoundationKit/CubeFileUtil.h>
 
 //------ protocls
 #import <CubeEngineFoundationKit/CubeJsonObject.h>

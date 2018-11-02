@@ -26,7 +26,7 @@
  @param data 计算的文件
  @return 文件标识
  */
--(NSString *)fileIdentifierFor:(NSData *)data;
++(NSString *)fileIdentifierFor:(NSData *)data;
 
 #pragma mark - get filePath
 
@@ -39,7 +39,7 @@
  @param addtionalPath 文件根目录下的具体路径，不指定则获取文件根目录下的文件路径
  @return 文件路径
  */
--(NSString *)filePathForIdentifier:(NSString *)identifier withAddtionalPath:(nullable NSString *)addtionalPath;
++(NSString *)filePathForIdentifier:(NSString *)identifier withAddtionalPath:(nullable NSString *)addtionalPath;
 
 /**
  获取已下载文件的路径
@@ -50,7 +50,7 @@
  @param addtionalPath 文件根目录下的具体路径，不指定则搜索根目录下的url指向的文件
  @return 文件路径
  */
--(nullable NSString *)filePathForUrl:(NSString *)url withAddtionalPath:(nullable NSString *)addtionalPath;
++(nullable NSString *)filePathForUrl:(NSString *)url withAddtionalPath:(nullable NSString *)addtionalPath;
 
 /**
  获取url临时文件的的存放路径
@@ -59,7 +59,7 @@
  @param addtionalPath 文件根目录下的具体路径，不指定则将临时文件保存到文件根路径
  @return url的临时文件存放路径
  */
--(NSString *)tempFilePathForUrl:(NSString *)url withAddtionalPath:(nullable NSString *)addtionalPath;
++(NSString *)tempFilePathForUrl:(NSString *)url withAddtionalPath:(nullable NSString *)addtionalPath;
 
 #pragma mark - save file
 
@@ -69,7 +69,7 @@
  @param data 待保存的文件数据
  @return 文件路径
  */
--(NSString *)saveFile:(NSData *)data withAddtionalPath:(nullable NSString *)addtionalPath;
++(NSString *)saveFile:(NSData *)data withAddtionalPath:(nullable NSString *)addtionalPath;
 
 /**
  创建url到文件的连接
@@ -81,7 +81,7 @@
  @param addtionalPath 文件根目录下的具体路径，不指定则搜索文件根路径下的指定文件并创建连接
  @return 是否创建成功
  */
--(BOOL)createlinkTo:(NSString *)identifier for:(NSString *)url withAddtionalPath:(nullable NSString *)addtionalPath;
++(BOOL)createlinkTo:(NSString *)identifier for:(NSString *)url withAddtionalPath:(nullable NSString *)addtionalPath;
 
 /**
  外部完成对临时文件的处理,让engine处理临时文件
@@ -94,6 +94,6 @@
  @param addtionalPath 文件根目录下的具体路径，不指定则将临时文件保存到文件根路径
  @return 文件的最终存放路径
  */
--(NSString *)completeTempFileFor:(NSString *)url withAddtionalPath:(nullable NSString *)addtionalPath;
++(NSString *)completeTempFileFor:(NSString *)url withAddtionalPath:(nullable NSString *)addtionalPath;
 
 @end
