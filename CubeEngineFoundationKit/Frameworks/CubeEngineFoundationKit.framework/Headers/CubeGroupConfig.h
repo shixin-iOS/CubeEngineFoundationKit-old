@@ -44,7 +44,7 @@
  群组类型：会议，桌面共享，白板，直播
  @note  CubeGroupType define
  */
-@property (nonatomic, assign) NSString *type;
+@property (nonatomic, assign) CubeGroupType type;
 
 /**
  群组最大人数
@@ -63,5 +63,5 @@
  @param displayName 群组名称
  @return self
  */
-- (instancetype)initWithGroupType:(NSString *)type withDisplayName:(NSString *)displayName;
+- (instancetype)initWithGroupType:(CubeGroupType )type withDisplayName:(NSString *)displayName;
 @end

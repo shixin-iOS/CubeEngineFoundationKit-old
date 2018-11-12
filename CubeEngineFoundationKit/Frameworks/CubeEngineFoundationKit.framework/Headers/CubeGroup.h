@@ -15,7 +15,7 @@
 /**
  群组类型：会议，桌面共享，白板，直播
  */
-@property (nonatomic, strong) NSString *type;
+@property (nonatomic, assign) CubeGroupType type;
 /**
  群组ID
  */
@@ -93,6 +93,6 @@
  @param displayName 群组名称
  @return self
  */
-- (instancetype)initWithGroupType:(NSString *)type withDisplayName:(NSString *)displayName;
+- (instancetype)initWithGroupType:(CubeGroupType )type withDisplayName:(NSString *)displayName;
 
 @end

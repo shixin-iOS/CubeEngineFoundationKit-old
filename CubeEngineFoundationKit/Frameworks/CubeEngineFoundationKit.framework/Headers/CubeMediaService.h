@@ -177,12 +177,13 @@
 -(void)didStartRecordAudioToFile:(NSString *)filePath;
 
 /**
- 录制结束
+  录制结束
 
  @param filePath 文件路径
+ @param duration 时长
  @param error 错误信息
  */
--(void)didFinishedRecordAudioToFile:(NSString *)filePath withError:(CubeError *)error;
+-(void)didFinishedRecordAudioToFile:(NSString *)filePath andDuration:(CGFloat)duration withError:(CubeError *)error;
 
 @end
 
