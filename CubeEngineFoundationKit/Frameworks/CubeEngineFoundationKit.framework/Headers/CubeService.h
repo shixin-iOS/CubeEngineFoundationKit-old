@@ -56,4 +56,12 @@
  */
 -(void)shouldStopWork:(CubeEngineWorkType)work;
 
+
+/**
+ 服务版本号
+ @note 每个服务单独提供了一个版本号描述
+ @return 服务的版本号
+ */
+- (NSString *)version;
+
 @end
